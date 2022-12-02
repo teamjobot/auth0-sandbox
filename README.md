@@ -1,6 +1,10 @@
-# Auth0 React Samples
+# Jobot Auth0 Sandbox
 
-[![CircleCI](https://circleci.com/gh/auth0-samples/auth0-react-samples.svg?style=svg)](https://circleci.com/gh/auth0-samples/auth0-react-samples)
+Fork of https://github.com/auth0-samples/auth0-react-samples.
+
+> **This a public repo, don't add anything secret here**
+
+## About
 
 This is the sample code for the [Auth0 React Quickstart](https://auth0.com/docs/quickstart/spa/react) using [auth0-react](https://github.com/auth0/auth0-react).
 
