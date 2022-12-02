@@ -26,7 +26,7 @@ const providerConfig = {
 };
 
 ReactDOM.render(
-  <Auth0Provider {...providerConfig}>
+  <Auth0Provider local_debug={config.localDebug} {...providerConfig}>
     <App />
   </Auth0Provider>,
   document.getElementById("root")

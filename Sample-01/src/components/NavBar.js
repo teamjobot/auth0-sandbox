@@ -35,6 +35,10 @@ const NavBar = () => {
       returnTo: window.location.origin,
     });
 
+  const doLogin = () => {
+    loginWithRedirect();
+  }
+
   return (
     <div className="nav-container">
       <Navbar color="light" light expand="md">
@@ -73,7 +77,7 @@ const NavBar = () => {
                     id="qsLoginBtn"
                     color="primary"
                     className="btn-margin"
-                    onClick={() => loginWithRedirect()}
+                    onClick={doLogin}
                   >
                     Log in
                   </Button>
@@ -117,7 +121,7 @@ const NavBar = () => {
                     id="qsLoginBtn"
                     color="primary"
                     block
-                    onClick={() => loginWithRedirect({})}
+                    onClick={doLogin}
                   >
                     Log in
                   </Button>
